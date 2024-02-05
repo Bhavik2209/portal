@@ -203,9 +203,7 @@ h2 span {
   }
   .col-rt-6, .col-rt-12 ,.col-rt-8{
     width: 100%;
-  }
-
-  
+  } 
 }
 
 @media (min-width: 1200px) {
