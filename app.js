@@ -7,7 +7,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/",(req,res)=>{
-    res.send("hello")
+    res.send("hello" ) 
+    
 })
 app.listen(port,()=>{
     console.log("server is running")
